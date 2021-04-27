@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     float horizontalInput;
     float playerSpeed = 10f;
     float xRange = 16;
+    public GameObject foodPrefab; 
     void Start()
     {
         
@@ -27,5 +28,9 @@ public class PlayerController : MonoBehaviour
             gameObject.transform.position = new Vector3(xRange, gameObject.transform.position.y, gameObject.transform.position.z);
         } 
         gameObject.transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * playerSpeed);
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(foodPrefab, gameObject.transform.position, Quaternion.identity);
+        }
     }
 }
