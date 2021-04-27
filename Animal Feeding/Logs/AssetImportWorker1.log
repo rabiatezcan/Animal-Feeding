@@ -1,0 +1,126 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.0f1 (61a549675243) revision 6399305'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'tr' Physical Memory: 7926 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/rabia/Documents/GitHub/Animal-Feeding/Animal Feeding
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63633
+Successfully changed project path to: C:/Users/rabia/Documents/GitHub/Animal-Feeding/Animal Feeding
+C:/Users/rabia/Documents/GitHub/Animal-Feeding/Animal Feeding
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 160.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.0f1 (61a549675243)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/rabia/Documents/GitHub/Animal-Feeding/Animal Feeding/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) 530 (ID=0x6900)
+    Vendor:   ATI
+    VRAM:     2038 MB
+    Driver:   27.20.14535.3005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007226 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1078.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 13.124 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.041 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3118.
+Total: 4.451700 ms (FindLiveObjects: 0.564800 ms CreateObjectMapping: 0.341800 ms MarkObjects: 3.420100 ms  DeleteObjects: 0.121500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/FoodMovement.cs
+  artifactKey: Guid(821a7f1880d970a4791568a7295197fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FoodMovement.cs using Guid(821a7f1880d970a4791568a7295197fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2db822ab501554097002e4b1c6d729a') in 0.134999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.137601 seconds.
+  path: Assets/Scripts/FoodMovement.cs
+  artifactKey: Guid(821a7f1880d970a4791568a7295197fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FoodMovement.cs using Guid(821a7f1880d970a4791568a7295197fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0900abd7c086387f927105a2880d9194') in 0.019510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.585748 seconds.
+  path: Assets/Scripts/FoodMovement.cs
+  artifactKey: Guid(821a7f1880d970a4791568a7295197fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FoodMovement.cs using Guid(821a7f1880d970a4791568a7295197fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb91f383a3939000199bcbe5159e388') in 0.018417 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006038 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.527 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3121.
+Total: 5.129000 ms (FindLiveObjects: 0.367100 ms CreateObjectMapping: 0.246400 ms MarkObjects: 4.438200 ms  DeleteObjects: 0.074900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004520 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.222 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3124.
+Total: 2.977400 ms (FindLiveObjects: 0.539600 ms CreateObjectMapping: 0.173300 ms MarkObjects: 2.204500 ms  DeleteObjects: 0.058100 ms)
+
