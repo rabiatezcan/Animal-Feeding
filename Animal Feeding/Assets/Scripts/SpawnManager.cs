@@ -32,6 +32,5 @@ public class SpawnManager : MonoBehaviour
             currentTime = 0;
         }
         currentTime += Time.deltaTime;
-
     }
 }
