@@ -30,7 +30,8 @@ public class PlayerController : MonoBehaviour
         gameObject.transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * playerSpeed);
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(foodPrefab, gameObject.transform.position, Quaternion.identity);
+            Vector3 foodPos = new Vector3(transform.position.x, 2, transform.position.z);
+            Instantiate(foodPrefab, foodPos, Quaternion.identity);
         }
     }
 }

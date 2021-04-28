@@ -10,7 +10,7 @@ public class MoveForward : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = Random.Range(10, 40);
+        speed = Random.Range(10, 25);
     }
 
     // Update is called once per frame
@@ -21,5 +21,11 @@ public class MoveForward : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(gameObject);
+        Destroy(other.gameObject);
     }
 }
