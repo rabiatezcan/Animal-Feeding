@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class MoveForward : MonoBehaviour
 {
-    float speed = 40f;
+    float speed;
     float topBound = 30;
     float bottomBound = -10; 
     // Start is called before the first frame update
     void Start()
     {
-        
+        speed = Random.Range(10, 40);
     }
 
     // Update is called once per frame
