@@ -668,3 +668,21 @@ Received Import Request.
   path: Assets/Prefabs/Animal_Moose_01.prefab
   artifactKey: Guid(3ceb61ef645fe42439c714daadb9cee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Animal_Moose_01.prefab using Guid(3ceb61ef645fe42439c714daadb9cee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50948b8149070b5bc067594aba36de14') in 0.067649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 183.087761 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(beaf6266993deb0428452fca2a1f42e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(beaf6266993deb0428452fca2a1f42e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd54aff26cc0c1988b3f351b9872a9f') in 0.048411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.743293 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(beaf6266993deb0428452fca2a1f42e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(beaf6266993deb0428452fca2a1f42e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa42905fa31d26f07e0b59850d470bf0') in 0.043900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.393587 seconds.
+  path: Assets/Prefabs/Food.prefab
+  artifactKey: Guid(beaf6266993deb0428452fca2a1f42e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Food.prefab using Guid(beaf6266993deb0428452fca2a1f42e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90ef34ad698d374bb4ed8900567393c') in 0.159461 seconds 
