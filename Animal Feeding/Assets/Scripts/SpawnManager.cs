@@ -8,22 +8,28 @@ public class SpawnManager : MonoBehaviour
     float spawnRangeX = 16;
     float spawnPosZ = 20;
     float currentTime = 0f;
+    UIManager uiManager; 
     // Start is called before the first frame update
     void Start()
     {
-        
+        uiManager = GameObject.Find("UI").GetComponent<UIManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        CreateAnimal();  
+        if (uiManager.isPlayGame)
+        {
+            CreateAnimal();
+        }
+        
     }
 
     public void CreateAnimal()
     {
+        
         float time = Random.Range(.2f, 4f);
-        while(currentTime >= time)
+        while (currentTime >= time)
         {
             Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
             int animalIndex = Random.Range(0, animalPrefabs.Length);
